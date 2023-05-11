@@ -1,0 +1,112 @@
+body {
+  font-family: trebuchet ms, sans-serif;
+  background-color: #362706;
+}
+
+h1 {
+  background-color: #E9E5D6;
+  color: #362706;
+  text-align: center;
+  padding: 10px;
+  font-size: 50px;
+}
+
+h2 {
+  color: #362706;
+  padding-top: 80px;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+.box {
+  background-color: #E9E5D6;
+  width: 9in;
+  height: 24.5in;
+  margin: 0 auto;
+  margin-bottom: 90px;
+  border-radius: 21px;
+}
+
+.foodpic {
+  width: 9in;
+  height: 2.8in;
+  border-radius: 20px 20px 0px 0px;
+}
+
+#products {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 8in;
+  color: #362706;
+}
+
+thead tr {
+  font-size: 20px;
+}
+
+.tdfirst, .thfirst {
+  border: 1px solid #362706;
+  padding: 13px;
+}
+
+.prodname {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.productpic {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+}
+
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  display: inline-block;
+  border: 1px solid #362706;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+#details {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 7in;
+  border-collapse: collapse;
+}
+
+.datadesign {
+  padding: 15px 10px;
+}
+
+.pickupdel {
+  padding: 15px 10px;
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+}
+
+input[type=submit] {
+      width: 3in;
+      background-color: #362706;
+      color: #E9E5D6;
+      padding: 10px 8px;
+      margin-top: 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 35px;
+}
+
+input[type=submit]: hover {
+      background-color: #379683;
+      color: white;
+}
+
